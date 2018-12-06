@@ -1,5 +1,12 @@
 package com.jenkins.auditInfo;
 
+/**
+ * The main Spring Boot Application
+ *
+ * Author hema madhuri
+ * Date   11/5/18
+ */
+
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -8,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @EnableAutoConfiguration
-public class PasswordController {
+public class StoreBuildInfoController {
 
 	
 
